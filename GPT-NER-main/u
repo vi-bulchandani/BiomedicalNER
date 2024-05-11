@@ -1,0 +1,23 @@
+I am an excellent linguist. The task is to label disease entities in the given sentence using the tag @.
+Molecular characterization of glucose-6-phosphate dehydrogenase (G6PD) deficiency by natural and amplification created restriction sites: five mutations account for most G6PD deficiency cases in Taiwan.
+
+
+I am an excellent linguist. The task is to label disease entities in the given sentence using the tag @.
+Given below is an example.
+Input:Partial gene deletion is the major cause of mutation leading to Duchenne muscular dystrophy (DMD) and Becker muscular dystrophy (BMD). Partial gene duplication has also been recognized in a few cases.
+Output:Partial gene deletion is the major cause of mutation leading to @Duchenne muscular dystrophy@ (@DMD@) and Becker muscular dystrophy (@BMD@).
+Input:Three children are reported with typical cat eye syndrome (CES) and three more children with partial CES because of absence of coloboma, in which the supernumerary marker chromosome was studied by FISH.
+Output:
+
+Partial gene deletion is the major cause of mutation leading to Duchenne muscular dystrophy (DMD) and Becker muscular dystrophy (BMD). Partial gene duplication has also been recognized in a few cases.
+
+
+In addition , we found seven individuals with hypohaptoglobinemia in three families , and the genotypes of six of the seven individuals were found to be Hp2 / Hpdel .
+
+
+I am an excellent linguist. The task is to label disease entities in the given sentence using the tags @ and #.
+Given below is an example.
+Input: A common MSH2 mutation in English and North American HNPCC families : origin , phenotypic expression , and sex specific differences in colorectal cancer .
+Output: A common MSH2 mutation in English and North American @ HNPCC # families : origin , phenotypic expression , and sex specific differences in @ colorectal cancer # .
+Now label the disease entities in the following sentence
+Input: The evidence of a significant proportion of loss - of - function mutations and a complete absence of the normal copy of ATM in the majority of mutated tumours establishes somatic inactivation of this gene in the pathogenesis of sporadic T - PLL and suggests that ATM acts as a tumour suppressor .
